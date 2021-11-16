@@ -1,0 +1,14 @@
+<article>
+  <h1>Hawaiian Getaway Contest</h1>
+  <h2>Enter your information to be eligible for our weekly raffle</h2>
+  <label for="name"
+    >Name <input type="text" id="name" [(ngModel)]="txtName"
+  /></label>
+  <label for="email"
+    >Email <input type="email" id="email" [(ngModel)]="txtEmail"
+  /></label>
+  <div>
+    <button class="save" (click)="onSubmit()">Submit</button>
+    <button (click)="onCancel()">Cancel</button>
+  </div>
+</article>

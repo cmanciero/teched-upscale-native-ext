@@ -1,20 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'lib-native-ext',
-  template: `
-    <p>
-      native-ext works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './native-ext.component.html',
+  styleUrls: ['./native-ext.component.scss'],
 })
 export class NativeExtComponent implements OnInit {
+  txtName = '';
+  txtEmail = '';
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  onSubmit(): void {
+    alert('Name - ' + this.txtName + ' - Email - ' + this.txtEmail);
   }
 
+  onCancel(): void {}
 }

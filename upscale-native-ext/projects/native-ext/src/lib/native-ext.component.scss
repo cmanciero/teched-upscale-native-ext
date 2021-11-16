@@ -1,0 +1,47 @@
+:host {
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8px;
+    background: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+
+  h1 {
+    border-bottom: 1px solid #efefef;
+  }
+
+  label {
+    display: flex;
+    gap: 10px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #email {
+    margin-left: 3px;
+  }
+
+  div {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .save {
+    background-color: black;
+    color: white;
+  }
+}
